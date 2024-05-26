@@ -3,6 +3,15 @@ few things to do after fresh install of Fedora Linux distribution
 
 -------------------------------------------------------------------------------------------------
 
+Minimal XFCE4 install
+```dnf group info base-x```
+
+```dnf install xorg-x11-server-Xorg xorg-x11-xinit xorg-x11-drv-libinput mesa-dri-drivers```
+
+```dnf group info xfce-desktop```
+
+```dnf install xfce4-panel xfce4-session xfce4-settings xfconf xfdesktop xfwm4```
+
 ### disable nouveau driver from grub 
 ```sudo nano /etc/default/grub```
 
