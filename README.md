@@ -4,6 +4,7 @@ few things to do after fresh install of Fedora Linux distribution
 -------------------------------------------------------------------------------------------------
 
 Minimal XFCE4 install
+
 ```dnf group info base-x```
 
 ```dnf install xorg-x11-server-Xorg xorg-x11-xinit xorg-x11-drv-libinput mesa-dri-drivers```
